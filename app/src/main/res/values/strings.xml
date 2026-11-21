@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اسمع</string>
+    <string name="tagline">اقرأ أي منشور بصوت مسموع بضغطة واحدة</string>
+
+    <string name="a11y_label">اسمع — قارئ المنشورات</string>
+    <string name="a11y_description">يعرض زرًا عائمًا فوق فيسبوك وإكس. عند الضغط عليه يقرأ التطبيق نص المنشور الظاهر على الشاشة بصوت مسموع، ويترجم الإنجليزية إلى العربية إن أردت. لا يُحفظ أي نص، ولا يُرسل إلى أي خادم إلا عند تفعيلك لميزات Gemini (يُرسل النص أو صورة الشاشة إلى جوجل لمعالجتها).</string>
+
+    <string name="service_on">الخدمة مفعّلة ✓</string>
+    <string name="service_off">الخدمة غير مفعّلة</string>
+    <string name="service_on_hint">افتح فيسبوك أو إكس وسيظهر الزر العائم.</string>
+    <string name="service_off_hint">فعّل «اسمع — قارئ المنشورات» من إعدادات إمكانية الوصول. إن ظهرت رسالة «إعداد مقيّد»: افتح معلومات التطبيق ← القائمة ⋮ ← «السماح بالإعدادات المقيّدة».</string>
+    <string name="open_a11y">فتح إعدادات إمكانية الوصول</string>
+
+    <string name="how_title">طريقة الاستخدام</string>
+    <string name="how_body">١. افتح فيسبوك أو إكس.\n٢. اجعل المنشور بمحاذاة الزر العائم (أو اسحب الزر بجانبه).\n٣. اضغط الزر مرة واحدة ليبدأ القراءة، واضغطه مرة أخرى للإيقاف.\n٤. ضغطة مطوّلة على الزر تفتح قائمة الأدوات: قراءة نص الصورة، ترجمة الشاشة، تلخيص، اقتراح رد، إملاء صوتي، وتشغيل الترجمة إلى العربية.</string>
+
+    <string name="menu_image">🖼  قراءة نص الصورة</string>
+    <string name="menu_screen">🌐  ترجمة الشاشة</string>
+    <string name="menu_summary">📝  تلخيص المنشور</string>
+    <string name="menu_reply">💬  اقتراح رد</string>
+    <string name="menu_dictate">🎤  إملاء صوتي</string>
+    <string name="menu_translate_on">⇄  الترجمة للعربية: مفعّلة</string>
+    <string name="menu_translate_off">⇄  الترجمة للعربية: متوقفة</string>
+
+    <string name="ai_need_key">هذه الميزة تحتاج مفتاح Gemini — أضفه من تطبيق اسمع</string>
+    <string name="ai_bad_key">مفتاح Gemini غير صحيح</string>
+    <string name="ai_quota">انتهى حد Gemini المجاني حاليًا — حاول لاحقًا</string>
+    <string name="ai_network">تعذّر الاتصال بـ Gemini — تحقق من الإنترنت</string>
+    <string name="ai_failed">لم يصل رد من Gemini — حاول مرة أخرى</string>
+    <string name="shot_failed">تعذّر تصوير الشاشة</string>
+    <string name="no_image_text">لم أجد نصًا مكتوبًا في الصورة</string>
+
+    <string name="mic_needed">اسمح للتطبيق باستخدام الميكروفون أولًا</string>
+    <string name="stt_unavailable">خدمة التعرف على الكلام غير متاحة على هذا الجهاز</string>
+    <string name="stt_listening">تكلّم الآن… يتوقف تلقائيًا عند سكوتك، أو اضغط الزر</string>
+    <string name="stt_nothing">لم أسمع كلامًا</string>
+    <string name="stt_need_key">الإملاء بالعربية على هذا الجهاز يحتاج مفتاح Gemini — أضفه من تطبيق اسمع</string>
+    <string name="stt_failed">تعذّر التعرف على الكلام</string>
+    <string name="stt_inserted">تمت كتابة النص</string>
+    <string name="copied">تم النسخ</string>
+    <string name="reply_copied">تم نسخ الرد — الصقه في خانة الكتابة</string>
+    <string name="reply_inserted">تمت كتابة الرد في خانة الكتابة</string>
+    <string name="card_speak">🔊 قراءة</string>
+    <string name="card_copy">نسخ</string>
+    <string name="card_reply_hint">اضغط على الرد لنسخه</string>
+
+    <string name="tools_title">الأدوات الذكية</string>
+    <string name="tools_help">تفتح بضغطة مطوّلة على الزر العائم. قراءة نص الصورة وترجمة الشاشة والتلخيص واقتراح الرد تعمل بمفتاح Gemini وتستهلك من حدّه المجاني.</string>
+    <string name="reply_style_hint">أسلوب الردود المقترحة</string>
+    <string name="opt_dictation_english">الإملاء بالإنجليزية (عند العمل بدون مفتاح Gemini فقط)</string>
+    <string name="opt_dictation_polish">تصحيح وتنسيق النص المُملى عبر Gemini</string>
+    <string name="mic_allow">السماح بالميكروفون للإملاء</string>
+    <string name="mic_granted">الميكروفون مسموح ✓</string>
+
+    <string name="notify_label">اسمع — قارئ الإشعارات</string>
+    <string name="notify_title">قارئ الإشعارات</string>
+    <string name="opt_notify">قراءة الإشعارات بصوت مسموع عند وصولها</string>
+    <string name="notify_help">يقرأ إشعارات التطبيقات المختارة فقط، ويتوقف تلقائيًا والهاتف على الصامت. يحتاج إذن «الوصول إلى الإشعارات».</string>
+    <string name="notify_access_needed">فعّل «اسمع — قارئ الإشعارات» من صفحة الوصول إلى الإشعارات</string>
+    <string name="notify_pick_apps">اختيار التطبيقات</string>
+    <string name="opt_notify_cloud">قراءة الإشعارات بصوت Gemini (يستهلك من الحد المجاني)</string>
+    <string name="ok">تم</string>
+    <string-array name="notify_app_labels">
+        <item>واتساب</item>
+        <item>تيليجرام</item>
+        <item>ماسنجر</item>
+        <item>الرسائل النصية SMS</item>
+        <item>كل التطبيقات</item>
+    </string-array>
+    <string-array name="reply_styles">
+        <item>ودود</item>
+        <item>رسمي ومهذب</item>
+        <item>مختصر ومباشر</item>
+        <item>فكاهي خفيف</item>
+        <item>داعم ومتعاطف</item>
+    </string-array>
+
+    <string name="settings_title">الإعدادات</string>
+    <string name="opt_translate">ترجمة الإنجليزية إلى العربية ثم قراءتها</string>
+    <string name="opt_show_card">عرض النص المترجم على الشاشة</string>
+    <string name="opt_expand">فتح «عرض المزيد» تلقائيًا لقراءة المنشور كاملًا</string>
+    <string name="opt_all_apps">إظهار الزر في كل التطبيقات</string>
+    <string name="opt_article">وضع المقال: متابعة قراءة باقي النص الظاهر</string>
+    <string name="rate_label">سرعة القراءة: %1$s×</string>
+
+    <string name="model_ready">حزمة الترجمة جاهزة (تعمل بدون إنترنت)</string>
+    <string name="model_missing">حزمة الترجمة غير محمّلة (حوالي 30 م.ب)</string>
+    <string name="model_downloading">جارٍ تحميل حزمة الترجمة…</string>
+    <string name="model_failed">تعذّر تحميل حزمة الترجمة — تحقق من الإنترنت</string>
+    <string name="download_model">تحميل حزمة الترجمة</string>
+
+    <string name="test_voice">تجربة الصوت</string>
+    <string name="tts_settings">إعدادات الصوت في النظام</string>
+    <string name="test_phrase">مرحبًا، هذا اختبار للقراءة باللغة العربية. Hello, this is a test of English reading, and it works well.</string>
+
+    <string name="no_window">تعذّر قراءة محتوى الشاشة</string>
+    <string name="no_text">لم أجد نصًا — اجعل المنشور بمحاذاة الزر</string>
+    <string name="translating">جارٍ الترجمة…</string>
+    <string name="translate_failed">تعذّرت الترجمة — سأقرأ النص الأصلي</string>
+    <string name="translate_on">الترجمة إلى العربية: مفعّلة</string>
+    <string name="translate_off">الترجمة إلى العربية: متوقفة</string>
+    <string name="tts_failed">محرك تحويل النص إلى كلام غير متاح على هذا الجهاز</string>
+    <string name="voice_missing_ar">صوت اللغة العربية غير مثبّت — ثبّته من إعدادات الصوت في النظام</string>
+    <string name="voice_missing_en">صوت اللغة الإنجليزية غير مثبّت — ثبّته من إعدادات الصوت في النظام</string>
+    <string name="cloud_title">الصوت البشري (Gemini)</string>
+    <string name="opt_cloud">القراءة بصوت Gemini البشري المعبّر</string>
+    <string name="cloud_help">يحتاج مفتاحًا مجانيًا من جوجل: افتح صفحة المفتاح بحساب جوجل ← Create API key ← انسخه والصقه هنا. المفتاح يُحفظ على جهازك فقط. عند التفعيل يُرسل نص المنشور إلى خوادم جوجل لتحويله إلى صوت، وإذا انقطع الإنترنت أو انتهى الحد المجاني يقرأ التطبيق بصوت الجهاز.</string>
+    <string name="cloud_get_key">فتح صفحة المفتاح</string>
+    <string name="cloud_key_hint">مفتاح Gemini API</string>
+    <string name="cloud_voice_hint">الصوت</string>
+    <string name="cloud_style_hint">نبرة الإلقاء (بالعربية أو الإنجليزية)</string>
+    <string name="cloud_bad_key">مفتاح Gemini غير صحيح — سأقرأ بصوت الجهاز</string>
+    <string name="cloud_quota">انتهى حد Gemini المجاني حاليًا — سأقرأ بصوت الجهاز</string>
+    <string name="cloud_network">تعذّر الاتصال بـ Gemini — سأقرأ بصوت الجهاز</string>
+    <string name="cloud_failed">تعذّر توليد الصوت من Gemini — سأقرأ بصوت الجهاز</string>
+    <string-array name="gemini_voices">
+        <item>Sulafat — دافئ</item>
+        <item>Achird — ودود</item>
+        <item>Vindemiatrix — هادئ ولطيف</item>
+        <item>Zephyr — مشرق</item>
+        <item>Puck — مرح</item>
+        <item>Charon — إخباري</item>
+        <item>Kore — حازم</item>
+        <item>Fenrir — متحمس</item>
+        <item>Gacrux — ناضج</item>
+        <item>Algieba — ناعم</item>
+        <item>Sadachbia — حيوي</item>
+        <item>Iapetus — واضح</item>
+    </string-array>
+    <string name="bubble_desc">قراءة المنشور</string>
+    <string name="close">إغلاق</string>
+</resources>

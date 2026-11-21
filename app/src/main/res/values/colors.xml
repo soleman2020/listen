@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand">#1565C0</color>
+    <color name="bubble_idle">#1565C0</color>
+    <color name="bubble_translate">#00897B</color>
+    <color name="bubble_speaking">#D32F2F</color>
+    <color name="bubble_loading">#F9A825</color>
+    <color name="bubble_listening">#7B1FA2</color>
+</resources>
