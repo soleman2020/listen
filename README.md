@@ -6,12 +6,17 @@
 
 **العربية** · [English](#listen-اسمع--english)
 
+<p align="center">
+<img src="fastlane/metadata/android/ar/images/phoneScreenshots/1.png" width="240" alt="screenshot">
+</p>
+
 ## المميزات
 
 - **زر عائم** فوق فيسبوك وإكس (أو فوق كل التطبيقات): ضغطة تقرأ المنشور الذي بجانب الزر، وضغطة أخرى توقف القراءة.
 - **اكتشاف اللغة تلقائيًا** وقراءة كل جزء بصوته الصحيح، عربي أو إنجليزي.
 - **ترجمة الإنجليزية للعربية على الجهاز** بـ ML Kit، وتعمل بدون إنترنت بعد تحميل الحزمة (حوالي 30 م.ب).
 - **فتح «عرض المزيد» تلقائيًا** لقراءة المنشور كاملًا، و**وضع المقال** لمتابعة باقي النص الظاهر.
+- **الواجهة بالعربية والإنجليزية** حسب لغة الهاتف.
 - **قارئ الإشعارات**: يقرأ إشعارات التطبيقات التي تختارها، ويصمت والهاتف على الوضع الصامت.
 - **أدوات ذكية** بضغطة مطوّلة على الزر (تحتاج مفتاح Gemini مجانيًا):
   - قراءة نص الصورة
@@ -69,12 +74,17 @@
 
 An Android app that reads any Facebook or X (Twitter) post aloud with one tap, in Arabic and English, and translates English into Arabic.
 
+<p align="center">
+<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="240" alt="screenshot">
+</p>
+
 ## Features
 
 - **Floating button** over Facebook and X (or over every app). Tap once to read the post next to the button; tap again to stop.
 - **Automatic language detection**: each part is read with the right voice, Arabic or English.
 - **On-device English → Arabic translation** with ML Kit. It works offline after a one-time download of about 30 MB.
 - **Auto-expands "See more"** to read the whole post, and an **article mode** that keeps reading the rest of the visible text.
+- **Arabic and English interface**, following the phone's language.
 - **Notification reader**: reads notifications from the apps you choose, and stays quiet when the phone is on silent.
 - **Smart tools** behind a long-press on the button (they need a free Gemini API key):
   - Read the text in an image

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Listen</string>
+    <string name="tagline">Hear any post read aloud with one tap</string>
+
+    <string name="a11y_label">Listen — post reader</string>
+    <string name="a11y_description">Shows a floating button over Facebook and X. Tap it and the app reads the post on screen aloud, and can translate English into Arabic. No text is stored, and nothing is sent to any server unless you turn on Gemini features (then the text or a screenshot is sent to Google for processing).</string>
+
+    <string name="service_on">Service is on ✓</string>
+    <string name="service_off">Service is off</string>
+    <string name="service_on_hint">Open Facebook or X and the floating button will appear.</string>
+    <string name="service_off_hint">Turn on “Listen — post reader” in Accessibility settings. If you see “Restricted setting”: open App info → ⋮ menu → “Allow restricted settings”.</string>
+    <string name="open_a11y">Open accessibility settings</string>
+
+    <string name="how_title">How to use</string>
+    <string name="how_body">1. Open Facebook or X.\n2. Line the post up with the floating button (or drag the button next to it).\n3. Tap the button once to start reading, and tap again to stop.\n4. Long-press the button for the tools menu: read text in an image, translate the screen, summarize, suggest a reply, voice dictation, and the English→Arabic translation switch.</string>
+
+    <string name="menu_image">🖼  Read text in image</string>
+    <string name="menu_screen">🌐  Translate screen</string>
+    <string name="menu_summary">📝  Summarize post</string>
+    <string name="menu_reply">💬  Suggest a reply</string>
+    <string name="menu_dictate">🎤  Voice dictation</string>
+    <string name="menu_translate_on">⇄  Translate to Arabic: on</string>
+    <string name="menu_translate_off">⇄  Translate to Arabic: off</string>
+
+    <string name="ai_need_key">This feature needs a Gemini key — add it in the Listen app</string>
+    <string name="ai_bad_key">The Gemini key is not valid</string>
+    <string name="ai_quota">The free Gemini quota is used up for now — try later</string>
+    <string name="ai_network">Couldn’t reach Gemini — check your internet</string>
+    <string name="ai_failed">No reply from Gemini — try again</string>
+    <string name="shot_failed">Couldn’t capture the screen</string>
+    <string name="no_image_text">No written text found in the image</string>
+
+    <string name="mic_needed">Allow the app to use the microphone first</string>
+    <string name="stt_unavailable">Speech recognition isn’t available on this device</string>
+    <string name="stt_listening">Speak now… it stops when you go quiet, or tap the button</string>
+    <string name="stt_nothing">I didn’t hear anything</string>
+    <string name="stt_need_key">Arabic dictation on this device needs a Gemini key — add it in the Listen app</string>
+    <string name="stt_failed">Couldn’t recognize the speech</string>
+    <string name="stt_inserted">Text typed in</string>
+    <string name="copied">Copied</string>
+    <string name="reply_copied">Reply copied — paste it in the text box</string>
+    <string name="reply_inserted">Reply typed into the text box</string>
+    <string name="card_speak">🔊 Read</string>
+    <string name="card_copy">Copy</string>
+    <string name="card_reply_hint">Tap a reply to copy it</string>
+
+    <string name="tools_title">Smart tools</string>
+    <string name="tools_help">Open them with a long-press on the floating button. Reading image text, screen translation, summaries and reply suggestions use your Gemini key and count against its free quota.</string>
+    <string name="reply_style_hint">Style of suggested replies</string>
+    <string name="opt_dictation_english">Dictate in English (only when there’s no Gemini key)</string>
+    <string name="opt_dictation_polish">Fix and tidy dictated text with Gemini</string>
+    <string name="mic_allow">Allow the microphone for dictation</string>
+    <string name="mic_granted">Microphone allowed ✓</string>
+
+    <string name="notify_label">Listen — notification reader</string>
+    <string name="notify_title">Notification reader</string>
+    <string name="opt_notify">Read notifications aloud when they arrive</string>
+    <string name="notify_help">Reads notifications only from the apps you pick, and stays quiet when the phone is on silent. Needs “Notification access”.</string>
+    <string name="notify_access_needed">Turn on “Listen — notification reader” on the Notification access page</string>
+    <string name="notify_pick_apps">Choose apps</string>
+    <string name="opt_notify_cloud">Read notifications with the Gemini voice (uses the free quota)</string>
+    <string name="ok">OK</string>
+    <string-array name="notify_app_labels">
+        <item>WhatsApp</item>
+        <item>Telegram</item>
+        <item>Messenger</item>
+        <item>SMS messages</item>
+        <item>All apps</item>
+    </string-array>
+    <string-array name="reply_styles">
+        <item>Friendly</item>
+        <item>Formal and polite</item>
+        <item>Short and direct</item>
+        <item>Lightly funny</item>
+        <item>Supportive and caring</item>
+    </string-array>
+
+    <string name="settings_title">Settings</string>
+    <string name="opt_translate">Translate English into Arabic, then read it</string>
+    <string name="opt_show_card">Show the translated text on screen</string>
+    <string name="opt_expand">Open “See more” automatically to read the whole post</string>
+    <string name="opt_all_apps">Show the button in all apps</string>
+    <string name="opt_article">Article mode: keep reading the rest of the visible text</string>
+    <string name="rate_label">Reading speed: %1$s×</string>
+
+    <string name="model_ready">Translation pack ready (works offline)</string>
+    <string name="model_missing">Translation pack not downloaded (about 30 MB)</string>
+    <string name="model_downloading">Downloading translation pack…</string>
+    <string name="model_failed">Couldn’t download the translation pack — check your internet</string>
+    <string name="download_model">Download translation pack</string>
+
+    <string name="test_voice">Test the voice</string>
+    <string name="tts_settings">System voice settings</string>
+    <string name="test_phrase">Hello, this is a test of English reading, and it works well. مرحبًا، هذا اختبار للقراءة باللغة العربية.</string>
+
+    <string name="no_window">Couldn’t read the screen content</string>
+    <string name="no_text">No text found — line the post up with the button</string>
+    <string name="translating">Translating…</string>
+    <string name="translate_failed">Translation failed — reading the original text</string>
+    <string name="translate_on">Translate to Arabic: on</string>
+    <string name="translate_off">Translate to Arabic: off</string>
+    <string name="tts_failed">No text-to-speech engine is available on this device</string>
+    <string name="voice_missing_ar">The Arabic voice isn’t installed — install it in the system voice settings</string>
+    <string name="voice_missing_en">The English voice isn’t installed — install it in the system voice settings</string>
+    <string name="cloud_title">Human voice (Gemini)</string>
+    <string name="opt_cloud">Read with Gemini’s natural, expressive voice</string>
+    <string name="cloud_help">Needs a free key from Google: open the key page with your Google account → Create API key → copy it and paste it here. The key is stored only on your device. When this is on, the post text is sent to Google’s servers to turn it into speech. If you’re offline or the free quota runs out, the app reads with the device voice.</string>
+    <string name="cloud_get_key">Open the key page</string>
+    <string name="cloud_key_hint">Gemini API key</string>
+    <string name="cloud_voice_hint">Voice</string>
+    <string name="cloud_style_hint">Speaking tone (in Arabic or English)</string>
+    <string name="cloud_bad_key">The Gemini key is not valid — reading with the device voice</string>
+    <string name="cloud_quota">The free Gemini quota is used up for now — reading with the device voice</string>
+    <string name="cloud_network">Couldn’t reach Gemini — reading with the device voice</string>
+    <string name="cloud_failed">Couldn’t generate the Gemini voice — reading with the device voice</string>
+    <string-array name="gemini_voices">
+        <item>Sulafat — Warm</item>
+        <item>Achird — Friendly</item>
+        <item>Vindemiatrix — Calm and gentle</item>
+        <item>Zephyr — Bright</item>
+        <item>Puck — Playful</item>
+        <item>Charon — Newsreader</item>
+        <item>Kore — Firm</item>
+        <item>Fenrir — Excited</item>
+        <item>Gacrux — Mature</item>
+        <item>Algieba — Smooth</item>
+        <item>Sadachbia — Lively</item>
+        <item>Iapetus — Clear</item>
+    </string-array>
+    <string name="bubble_desc">Read the post</string>
+    <string name="close">Close</string>
+</resources>

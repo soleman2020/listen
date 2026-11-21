@@ -360,7 +360,7 @@ class ReaderService : AccessibilityService() {
         )
         val box = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
-            layoutDirection = View.LAYOUT_DIRECTION_RTL
+            layoutDirection = View.LAYOUT_DIRECTION_LOCALE
             background = GradientDrawable().apply {
                 cornerRadius = dp(16).toFloat()
                 setColor(0xF5202124.toInt())
@@ -858,7 +858,7 @@ class ReaderService : AccessibilityService() {
 
         val actions = LinearLayout(this).apply {
             orientation = LinearLayout.HORIZONTAL
-            layoutDirection = View.LAYOUT_DIRECTION_RTL
+            layoutDirection = View.LAYOUT_DIRECTION_LOCALE
             gravity = Gravity.CENTER_VERTICAL
         }
         if (text != null) {
@@ -879,7 +879,7 @@ class ReaderService : AccessibilityService() {
 
         val content = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
-            layoutDirection = View.LAYOUT_DIRECTION_RTL
+            layoutDirection = View.LAYOUT_DIRECTION_LOCALE
         }
         if (text != null) {
             content.addView(TextView(this).apply {

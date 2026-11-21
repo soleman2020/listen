@@ -1,0 +1,10 @@
+<p>Listen puts a floating button over Facebook and X (or every app). Tap it and the post next to the button is read aloud, in Arabic or English, with the right voice for each part.</p>
+<ul>
+<li>One-tap reading; tap again to stop</li>
+<li>On-device English → Arabic translation (ML Kit, works offline)</li>
+<li>Opens "See more" automatically, plus an article mode</li>
+<li>Notification reader for the apps you choose</li>
+<li>Optional Gemini tools: read text in images, translate the screen, summarize, suggest replies, voice dictation, and a natural human voice</li>
+</ul>
+<p><b>Privacy:</b> no text is stored, no ads, no tracking. Without a Gemini key everything stays on the device. Gemini features send the post text or a screenshot to Google only when you turn them on.</p>
+<p><b>Why the Accessibility permission:</b> it is needed to read the post text shown on screen and to draw the floating button.</p>
